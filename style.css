@@ -1,9 +1,9 @@
-/* setting font family for all headers */
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-/* set font family for all text other than headers.  */
+
 body{
     font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif; 
     margin: auto;
@@ -137,3 +137,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+

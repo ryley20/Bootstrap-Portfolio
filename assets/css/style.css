@@ -10,7 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
 
 .container {
   width: 100%;
@@ -62,7 +61,12 @@ h3 {
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
-
+/* general */
+@media (max-width: 800px) {
+  #masthead {
+    position: relative;
+  }
+}
 #logo {
   float: left;
   width: 250px;
