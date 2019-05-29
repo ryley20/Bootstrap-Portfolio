@@ -10,6 +10,10 @@ body{
     background-color: white;
 }
 
+head{
+    background-color: green;
+}
+
 .my_name{
     float: left;
     background-color: black;

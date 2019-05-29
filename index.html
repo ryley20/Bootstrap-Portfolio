@@ -1,74 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <a class="navbar-brand head" href="#">
+      Ryley Chapman
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-list-2">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="navbar bg navbar-expand-sm">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <a href="index.html" id="logo">Ryley Chapman</a>
+      <nav>
+        <a class="visible-sm" href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </nav>
 
-    <body
-        background="assets/images/31443254-summer-or-spring-foliage-green-tree-leaves-seamless-pattern-background-for-wallpaper-tiles-and-fabri.jpg">
-        <!--<div class="top_bar">
-            <section class="my_name">
-                <h1>Web Dev Bootcamp</h1>
-            </section>
-            <section class="links">
-                <p>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </p>
-            </section>
-        </div>-->
+  <div id="main-container" class="container col-xs-12 col-sm-10 col-m-8">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Nhi Nguyen</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
 
-        <div class="the_meat">
-            <section class="content_header">
-                <h1>Help Me</h1>
-            </section>
-
-            <div id="Picture">
-                <img src="assets/images/squirrel.jpg" height="150px" width="150px"></div>
+      <p> My name is Ryley Chapman and besides learning to code, I enjoy lots of other things. I love to swim, hang out with friends, and play xbox. I haven't always lived in Austin though. Before this I was working in the oil field and saving money so I can get a good job with this bootcamp! Before that I was in the Navy for four years. I have worked hard to get to where I am, and will continue to make strides toward a better me the with my past and current knowledge.</p>
 
 
+    </section>
 
-            <p>Studying Web Development
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni distinctio sequi praesentium
-                delectus
-                inventore laboriosam excepturi sint, non accusamus sunt? Quisquam labore error, doloribus inventore
-                reprehenderit quod itaque ab!</p>
-        </div>
-        <footer>
+  </div>
 
-            <P>Copyright</P>
-
-        </footer>
-    </body>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
 
 </html>
